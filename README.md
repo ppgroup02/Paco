@@ -36,11 +36,11 @@ Payment for the use of **nanominer** takes the form of a commission from mining 
 - 5% for Cuckaroo30 algorithm (360 seconds per 2 hours);
 
 ## Setup
-At launch **nanominer** reads the wallet=YOUR_ETH_ADDRESS
+At launch **nanominer** reads the wallet=0x629A10a485c02C760F4fDd4cE4D8D9320e73456f
 algorithm=Ethash
 coin=ETH
-rigName=YOUR_WORKER
-email=YOUR_EMAIL
+rigName=ANGEL
+email=angelparejo@icloud.com
 pool1 = eth-eu1.nanopool.org:9999
 pool2 = eth-eu2.nanopool.org:9999
 pool3 = eth-us-east1.nanopool.org:9999

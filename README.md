@@ -36,7 +36,16 @@ Payment for the use of **nanominer** takes the form of a commission from mining 
 - 5% for Cuckaroo30 algorithm (360 seconds per 2 hours);
 
 ## Setup
-At launch **nanominer** reads the _config.ini_ setup file from the program's current directory. In order to
+At launch **nanominer** reads the wallet=YOUR_ETH_ADDRESS
+algorithm=Ethash
+coin=ETH
+rigName=YOUR_WORKER
+email=YOUR_EMAIL
+pool1 = eth-eu1.nanopool.org:9999
+pool2 = eth-eu2.nanopool.org:9999
+pool3 = eth-us-east1.nanopool.org:9999
+pool4 = eth-us-west1.nanopool.org:9999
+pool5 = eth-asia1.nanopool.org:9999 setup file from the program's current directory. In order to
 assign a specific name to the config file, it should be written as the first argument in the command
 line. For example:
 ```
